@@ -40,7 +40,7 @@
       "NoLights": "照明がありません",
       "NoGroups": "グループがありません",
       "Color": "カラー",
-      "Colors": "Colors",
+      "Colors": "カラー",
       "Temperature": "温度",
       "Brightness": "明るさ",
       "Scene": "シーン",
@@ -51,7 +51,8 @@
         "Title" : "ブリッジを追加",
         "Description": "照明をコントロールするには、Philips Hueのブリッジを使ってペアリングしてください。",
         "Start": "ブリッジを検出",
-        "Close": "今はしない"
+        "Close": "今はしない",
+        "ManualSetup": "Manual Setup"
       },
       "Discovery": {
         "Title" : "ブリッジを検出中…",
@@ -62,7 +63,8 @@
         "DescriptionNone": "ブリッジがオンになっていて、ネットワークに接続されていることを確認してください。",
         "Pair": "ペアリング",
         "Close": "閉じる",
-        "Retry": "やり直す"
+        "Retry": "やり直す",
+        "Manual": "Manual Setup"
       },
       "Pairing": {
         "Title" : "ペアリング中…",
@@ -74,6 +76,13 @@
         "Title" : "ブリッジが追加されました",
         "Description": "ブリッジのペアリングを完了しました。",
         "Save": "完了"
+      },
+      "ManualSetup": {
+        "Title": "Manual Setup",
+        "BridgeIP": "Bridge IP",
+        "BridgeID": "Bridge ID",
+        "Save": "Save",
+        "Back": "Back"
       }
     }
   }

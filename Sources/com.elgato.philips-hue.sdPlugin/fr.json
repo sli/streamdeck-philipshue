@@ -40,7 +40,7 @@
       "NoLights": "Aucune lumière",
       "NoGroups": "Aucun groupe",
       "Color": "Couleur",
-      "Colors": "Colors",
+      "Colors": "Couleurs",
       "Temperature": "Température",
       "Brightness": "Luminosité",
       "Scene": "Scène",
@@ -51,7 +51,8 @@
         "Title" : "Ajouter un pont",
         "Description": "Jumelez l’application à un pont Philips Hue pour contrôler vos lumières.",
         "Start": "Découvrir des ponts",
-        "Close": "Pas maintenant"
+        "Close": "Pas maintenant",
+        "ManualSetup": "Manual Setup"
       },
       "Discovery": {
         "Title" : "Découverte des ponts…",
@@ -62,7 +63,8 @@
         "DescriptionNone": "Vérifiez que votre pont est allumé et connecté au réseau.",
         "Pair": "Jumeler",
         "Close": "Fermer",
-        "Retry": "Réessayer"
+        "Retry": "Réessayer",
+        "Manual": "Manual Setup"
       },
       "Pairing": {
         "Title" : "Jumelage…",
@@ -74,6 +76,13 @@
         "Title" : "Pont ajouté",
         "Description": "Le pont a bien été jumelé à l’application.",
         "Save": "Terminé"
+      },
+      "ManualSetup": {
+        "Title": "Manual Setup",
+        "BridgeIP": "Bridge IP",
+        "BridgeID": "Bridge ID",
+        "Save": "Save",
+        "Back": "Back"
       }
     }
   }

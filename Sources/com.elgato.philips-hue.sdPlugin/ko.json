@@ -40,7 +40,7 @@
       "NoLights": "조명 없음",
       "NoGroups": "그룹 없음",
       "Color": "색상",
-      "Colors": "Colors",
+      "Colors": "색상",
       "Temperature": "온도",
       "Brightness": "밝기",
       "Scene": "장면",
@@ -51,7 +51,8 @@
         "Title" : "브릿지 추가",
         "Description": "Philips Hue 브릿지와 연결하여 조명을 조절하세요.",
         "Start": "브릿지 탐색",
-        "Close": "나중에"
+        "Close": "나중에",
+        "ManualSetup": "Manual Setup"
       },
       "Discovery": {
         "Title" : "브릿지 탐색 중...",
@@ -62,7 +63,8 @@
         "DescriptionNone": "브릿지가 켜져 있고 네트워크에 연결되어 있는지 확인하세요.",
         "Pair": "연결",
         "Close": "닫기",
-        "Retry": "다시 시도하기"
+        "Retry": "다시 시도하기",
+        "Manual": "Manual Setup"
       },
       "Pairing": {
         "Title" : "연결 중...",
@@ -74,6 +76,13 @@
         "Title" : "브릿지 추가됨",
         "Description": "브릿지가 성공적으로 연결되었습니다.",
         "Save": "완료"
+      },
+      "ManualSetup": {
+        "Title": "Manual Setup",
+        "BridgeIP": "Bridge IP",
+        "BridgeID": "Bridge ID",
+        "Save": "Save",
+        "Back": "Back"
       }
     }
   }

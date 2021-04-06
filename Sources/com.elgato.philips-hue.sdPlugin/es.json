@@ -40,7 +40,7 @@
       "NoLights": "No hay luces",
       "NoGroups": "No hay grupos",
       "Color": "Color",
-      "Colors": "Colors",
+      "Colors": "Colores",
       "Temperature": "Temperatura",
       "Brightness": "Brillo",
       "Scene": "Escena",
@@ -51,7 +51,8 @@
         "Title" : "Añadir puente",
         "Description": "Enlácese a un puente Philips Hue para controlar sus luces.",
         "Start": "Detectar puentes",
-        "Close": "Ahora no"
+        "Close": "Ahora no",
+        "ManualSetup": "Manual Setup"
       },
       "Discovery": {
         "Title" : "Detectando puentes…",
@@ -62,7 +63,8 @@
         "DescriptionNone": "Compruebe que el puente está encendido y conectado a la red.",
         "Pair": "Enlazar",
         "Close": "Cerrar",
-        "Retry": "Volver a intentar"
+        "Retry": "Volver a intentar",
+        "Manual": "Manual Setup"
       },
       "Pairing": {
         "Title" : "Enlazando...",
@@ -74,6 +76,13 @@
         "Title" : "Puente añadido",
         "Description": "El puente se ha enlazado correctamente.",
         "Save": "OK"
+      },
+      "ManualSetup": {
+        "Title": "Manual Setup",
+        "BridgeIP": "Bridge IP",
+        "BridgeID": "Bridge ID",
+        "Save": "Save",
+        "Back": "Back"
       }
     }
   }

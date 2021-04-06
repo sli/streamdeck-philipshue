@@ -51,7 +51,8 @@
         "Title" : "Add Bridge",
         "Description": "Pair with a Philips Hue bridge to control your lights.",
         "Start": "Discover Bridges",
-        "Close": "Not Now"
+        "Close": "Not Now",
+        "ManualSetup": "Manual Setup"
       },
       "Discovery": {
         "Title" : "Discovering Bridges...",
@@ -62,7 +63,8 @@
         "DescriptionNone": "Make sure your bridge is switched on and connected to the network.",
         "Pair": "Pair",
         "Close": "Close",
-        "Retry": "Try Again"
+        "Retry": "Try Again",
+        "Manual": "Manual Setup"
       },
       "Pairing": {
         "Title" : "Pairing...",
@@ -74,6 +76,13 @@
         "Title" : "Bridge Added",
         "Description": "The bridge has been paired sucessfully.",
         "Save": "Done"
+      },
+      "ManualSetup": {
+        "Title": "Manual Setup",
+        "BridgeIP": "Bridge IP",
+        "BridgeID": "Bridge ID",
+        "Save": "Save",
+        "Back": "Back"
       }
     }
   }

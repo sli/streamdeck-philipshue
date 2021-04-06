@@ -44,6 +44,10 @@ h2 {
     padding-bottom: 15px;
 }
 
+#error {
+    color: red;
+}
+
 .main {
     min-width: 400px;
 }
@@ -126,6 +130,24 @@ p, li {
 
 .button-transparent:hover {
     color: rgb(150, 150, 150);
+}
+
+label {
+    display: table;
+    margin: 0 auto;
+}
+
+.text-input {
+    color: white;
+    background-color: rgb(61, 61, 61);
+    border-radius: 4px;
+    border: 1px solid rgb(150, 150, 150);
+    padding: 4px;
+    margin: 8px 0;
+}
+
+.text-input:active {
+    border-color: rgb(0, 125, 255);
 }
 
 .hide {

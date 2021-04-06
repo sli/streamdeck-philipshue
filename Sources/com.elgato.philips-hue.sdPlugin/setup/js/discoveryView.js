@@ -46,12 +46,15 @@ function loadDiscoveryView() {
                         var content = "<p>" + localization['Discovery']['DescriptionNone'] + "</p> \
                                        <img class='image' src='images/bridge_not_found.png'> \
                                        <div class='button' id='retry'>" + localization['Discovery']['Retry'] + "</div> \
+                                       <div class='button' id='manual'>" + localization['Discovery']['Manual'] + "</div> \
                                        <div class='button-transparent' id='close'>" + localization['Discovery']['Close'] + "</div>";
                         document.getElementById('content').innerHTML = content;
 
                         // Add event listener
                         document.getElementById('retry').addEventListener('click', retry);
                         document.addEventListener('enterPressed', retry);
+                        
+                        document.getElementById('manual').addEventListener('click', manual);
 
                         document.getElementById('close').addEventListener('click', close);
                         document.addEventListener('escPressed', close);
@@ -111,6 +114,12 @@ function loadDiscoveryView() {
     function retry() {
         unloadDiscoveryView();
         loadDiscoveryView();
+    }
+
+    // Open manual setup view
+    function manual() {
+        unloadDiscoveryView();
+        loadManualSetupView();
     }
 
     // Close the window

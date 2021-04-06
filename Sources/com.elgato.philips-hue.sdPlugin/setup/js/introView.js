@@ -19,12 +19,15 @@ function loadIntroView() {
     var content = "<p>" + localization['Intro']['Description'] + "</p> \
                    <img class='image' src='images/bridge.png'> \
                    <div class='button' id='start'>" + localization['Intro']['Start'] + "</div> \
+                   <div class='button' id='manual'>" + localization['Intro']['ManualSetup'] + "</div> \
                    <div class='button-transparent' id='close'>" + localization['Intro']['Close'] + "</div>";
     document.getElementById('content').innerHTML = content;
 
     // Add event listener
     document.getElementById('start').addEventListener('click', startPairing);
     document.addEventListener('enterPressed', startPairing);
+
+    document.getElementById('manual').addEventListener('click', manual);
 
     document.getElementById('close').addEventListener('click', close);
     document.addEventListener('escPressed', close);
@@ -33,6 +36,12 @@ function loadIntroView() {
     function startPairing() {
         unloadIntroView();
         loadDiscoveryView();
+    }
+
+    // Load the manual setup view
+    function manual() {
+        unloadIntroView();
+        loadManualSetupView();
     }
 
     // Close the window
