@@ -17,8 +17,8 @@
     "Tooltip": "设置灯的颜色。"
   },
   "com.elgato.philips-hue.cycle": {
-    "Name": "Color Cycle",
-    "Tooltip": "Cycle between colors of your light."
+    "Name": "颜色循环",
+    "Tooltip": "在灯光颜色之间循环。"
   },
   "com.elgato.philips-hue.brightness": {
     "Name": "亮度",
